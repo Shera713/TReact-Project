@@ -5,28 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treact</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="<script src="https://kit.fontawesome.com/d35c50d71f.js" crossorigin="anonymous"></script>">
 </head>
 <body>
-    <section>
+    <section id="landing">
 <nav>
-    <div class="nav__container">
+<div class="row nav__row">    
+
     <img class="nav__logo" src=".git/assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="">
-    <H1 class="nav__header"> Treact</H1>
+</div>
 <ul class="nav__links">
-<li> <a href="#" class="nav__link">About</a></li>
+<li> <a href="#" class="nav__link">About</a></li> 
 <li> <a href="#" class="nav__link">Blog</a></li>
 <li> <a href="#" class="nav__link">Pricing</a></li>
 <li> <a href="#" class="nav__link">Contact Us</a></li>
 <li> <a href="#" class="nav__link">Login</a></li>
-<button class="btn"> <a href="#">Sign Up</a></button>
+<li> <a href="#" class="nav__link nav__link--primary">Sign Up</a></li>
 </ul>
+ <button class="btn__menu" onclick="openMenu()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="btn__menu--svg">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="light___StyledCloseIcon-lj69nl-14 fASujC">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+        </nav>
+<div class="modal">
+                <a class="modal__link">About</a>
+                <a class="modal__link">Blog</a>
+                <a class="modal__link">Pricing</a>
+                <a class="modal__link">Contact Us</a>
+                <a class="modal__link">Login</a>
+                <a class="modal__link modal__link--primary">Sign Up</a>
+            </div>
 </div>
-</nav>
 
 <header>
+<div class="header__container">
+    <div class="row">
+<h1>Beautiful React Templates <span class="purple">for you.</span> </h1>
+<p class="header__description--para">Our Templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+<h2>OUR CUSTOMERS</h2>
+<img class="header__cutomers"  src=".git/assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="">
+<div class="header__email">
+    <button>
+<form action="">
+    <input type="text" placeholder="Your E-mail Address">
+     Get Started</button>
+</form>
+</div>
 </header>
+</section>
+<section id="features">
+    <div class="container">
+        <div class="row__narrow">
+            <img class="header__img" src=".git/assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="">
+            <h2><span class="purple">FEATURES</span></h2>
+<h1>We have Amazing <span class="purple">Service.</span> </h1>
+<p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+    </div>
+</section>
+<section id="quality">
+<div class="container">
+<div class="row">
 
+</div>
+</div>
+</section>
 
-    </section>
 </body>
 </html>

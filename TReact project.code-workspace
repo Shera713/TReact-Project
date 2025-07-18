@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../assets-20250716T172120Z-1-001"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TReact project"
+	}
+}
