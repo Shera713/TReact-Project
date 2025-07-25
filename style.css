@@ -261,10 +261,10 @@ width: 512px;
 }
 
 
-.header__email--input{
+#header__email--input{
  width: 100%;
  border-radius: 500px;
- padding: 20px 192px 20px 32px;
+ padding: 20px 12px 20px 32px;
  color:rgb(36, 62, 99);
  font-size: 16px;
  font-weight: 500;
