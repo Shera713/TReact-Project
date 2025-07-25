@@ -189,6 +189,9 @@ nav{
     border: none;
 }
 
+
+
+
 .menu--open .modal{
     visibility: visible;
     opacity: 1;
@@ -239,6 +242,10 @@ margin-left: 16px;
 
 }
 
+.nav__link--primary:hover{
+    background-color:rgba(80, 17, 204);
+    color: rgba(154, 102, 255)
+}
 .nav__header{
     padding-right: 100px ;  
 }
@@ -307,9 +314,6 @@ width: 512px;
  bottom: 0;
  z-index: 1;
  transition: border 300ms;
-
-
-
 }
 
 .header__email--btn{
