@@ -15,12 +15,14 @@ overflow-x:hidden ;
 
 .row{
      width: 100%;
-     max-width: 1280px;
+     max-width: 1200px;
      margin: 0 auto;
+      display: flex;
+    align-items: flex-end;
 }
 
 .container{
-    padding:96px;
+    padding: 80px 0;
 }
 
 .purple{
@@ -120,6 +122,7 @@ nav{
   padding-top: 32px ;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav__row{
@@ -239,7 +242,7 @@ li{
 .nav__links{
       color:#243e63 ;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
     padding: 8px;
     
 }
@@ -292,15 +295,12 @@ HEADER
 
 header{
     position: relative;
+    
 }
 
 
-
-.row{
-    display: flex;
-    align-items: flex-end;
-}
 header .row{
+    display: flex;
     align-items: flex-end;
 }
 
@@ -428,6 +428,7 @@ FEATURES
 }
 
 .feature{
+    display: flex;
     width: calc(100% / 3);
 }
 
@@ -436,6 +437,10 @@ FEATURES
     align-items: flex-start;
     padding: 32px 24px;
 
+}
+.feature__title{
+color: #1a202c;
+font-size: 24px;
 }
 
 .feature__img{
@@ -473,16 +478,22 @@ QUALITY
 
 #quality{
     padding: 0 32px;
+
 }
 
 #quality .section__title{
     line-height: 1.25;
+   display: flex;
+   flex-direction: column;
+  
 }
 
 .quality__description{
     width: 50%;
-    max-width: 576px;
+display: flex;
+flex-direction: column;
     margin-right: 64px;
+
 }
 
 .quality__img--wrapper{
@@ -491,20 +502,36 @@ QUALITY
     margin: 0 56px;
     z-index: 2;
     display: flex;
+    width: 50%;
 }
 
 .quality__img{
     z-index: 1;
+    width: 100%;
 }
+
+#quality .btn{
+   margin-top: 24px;
+    width: 50%;
+}
+
+
 
 /*
 STEPS
 */
 
+
+
 .step{
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
     margin-top: 32px;
+}
+.steps__list{
+ display: flex;
+ flex-direction: column;
+ 
 }
 
 .step__number{
@@ -512,13 +539,14 @@ STEPS
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
+
 }
 
 .step__description{
     display: flex;
     flex-direction: column;
     margin: 24px;
-    max-width: 320px;
+    width: 50%;
 }
 
 .step__title{
@@ -534,6 +562,11 @@ STEPS
     margin-top: 12px;
     font-weight: 500;
     line-height: 2;
+   
+}
+
+.steps__img{
+    width: 75%;
 }
 
 
@@ -550,7 +583,9 @@ VALUES
 
 .values__description{
     padding: 32px 64px 32px 0;
-    width: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .values__list{
@@ -568,6 +603,7 @@ VALUES
 }
 
 .value__img--wrapper{
+    width: 50%;
     background-color: #9ae6b4;
     border-radius: 50%;
     display: flex;
@@ -587,6 +623,8 @@ VALUES
     line-height: 1.625;
     color: #718096;
 }
+
+
 
 .value__img{
     width: 50%;
@@ -608,7 +646,9 @@ PRICING PLANS
 
 .plans{
     display: flex;
+    justify-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
     position: relative;
     z-index: 100;
@@ -626,6 +666,16 @@ PRICING PLANS
 position: relative;
 z-index: 100;
 background: #fff;
+
+}
+
+.plan :nth-child(2){
+    background: (135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+
+}
+
+.plan :nth-child(3){
+        background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
 
 .plan__stripe{
@@ -648,6 +698,7 @@ background: #fff;
     font-size: 20px;
     font-weight: bold;
     line-height: 1.625;
+    text-transform: uppercase ;
 }
 
 .plan__price{
@@ -723,6 +774,7 @@ TESTEMONIALS
 #testemonials .section__title{
     margin-bottom: 24px;
     line-height: 1.25;
+    
 }
 
 .testemonials__img{
@@ -733,6 +785,7 @@ TESTEMONIALS
     display: flex;
     flex-direction: column;
     padding-left: 64px;
+    width: 50%;
 }
 
 
@@ -741,6 +794,7 @@ TESTEMONIALS
 }
 
 .testemonial__rating i{
+    padding-top: 20px;
     color:rgba(246, 173, 85) ;
     margin-top: 2px;
     margin-right: 4px;
@@ -786,6 +840,7 @@ TESTEMONIALS
 
 .testemonial__details{
     margin-left: 24px;
+   
 }
 
 .testemonial__name{
@@ -862,11 +917,23 @@ START
 }
 
 .start__button--btn{
-    color:#f56565 ;
+    background-color:#f56565 ;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
  margin-right: 32px;
  transition: all 300ms;
 }
+
+.start__button--btn :nth-child(2){
+    background-color: #6415FF;
+    border-color: #edf2f7;
+}
+
 
 /*
 FOOTER
@@ -885,25 +952,29 @@ footer{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .footer__column{
     margin-top: 48px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     z-index: 2;
+    width:calc(100%/5) ;
 }
 
 .footer__column--title{
     font-weight: 700;
     color: #f7fafc;
     line-height: 1.5;
+    text-transform: uppercase;
 }
 
 
 .footer__column--link{
     margin-top: 24px;
+    width: calc(100%/5);
     color: #f7fafc;
     font-size: 14px;
     font-weight: 500;
@@ -948,9 +1019,11 @@ letter-spacing: 0.05em;
     font-weight: 500;
 }
 
+
+
 .footer__socials{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     margin-left: -16px;
 }
 
