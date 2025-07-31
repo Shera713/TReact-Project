@@ -150,11 +150,10 @@ nav{
 
 .nav__logo--title{
    font-size: 24px;
-    font-weight: bolder;
+    font-weight: 900;
     margin-left: 12px;
     letter-spacing: 0.6px;
     padding-bottom: 2px;
-    padding-right: 610px;
 }
 
 .btn__menu{
@@ -230,17 +229,19 @@ nav{
 }
 ul{
     display: flex;
+
 }
 li{
     list-style-type: none;
+     font-size: 18px;
+    font-weight: 500;
+    margin: 0 24px;
+
+
 }
 
 
 .nav__links{
-      color:#243e63 ;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px;
     display: flex;
     align-items: center;
     padding-bottom: 2px;
