@@ -489,7 +489,12 @@ flex-direction: column;
 }
 
 .quality__img--wrapper{
-
+      border: 1px solid rgb(229, 231, 235);
+    position: relative;
+    margin: 0 56px;
+    z-index: 2;
+    display: flex;
+    width: 50%;
 }
    
 .quality__img{
