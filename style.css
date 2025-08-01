@@ -520,7 +520,8 @@ STEPS
 
 .step{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    text-wrap: wrap;
     margin-top: 32px;
 }
 .steps__list{
