@@ -516,7 +516,15 @@ QUALITY
 STEPS
 */
 
+#steps{
+    max-width: 1280px;
+}
 
+#stes .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .step{
     display: flex;
@@ -524,6 +532,7 @@ STEPS
     text-wrap: wrap;
     margin-top: 32px;
 }
+
 .steps__list{
  display: flex;
  flex-direction: column;
@@ -561,8 +570,12 @@ STEPS
    
 }
 
+.steps__img--wrapper{
+    width: 50%;
+}
+
 .steps__img{
-    width: 75%;
+ width: 100%;
 }
 
 
