@@ -427,8 +427,6 @@ FEATURES
 .feature__row{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
-    align-items: center;
     padding: 32px 24px;
 
 }
@@ -476,6 +474,8 @@ QUALITY
 
 #quality .row{
     max-width: 1280px;
+       justify-content: space-between;
+    align-items: center;
 }
 
 #quality .section__title{
@@ -509,7 +509,6 @@ flex-direction: column;
 
 #quality .btn {
       margin-top: 24px;
-    width: 50%;
   
 }
 
