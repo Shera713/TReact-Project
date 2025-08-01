@@ -489,10 +489,11 @@ flex-direction: column;
 }
 
 .quality__img--wrapper{
-   
 
+}
+   
 .quality__img{
-    z-index: 1;
+  z-index: 1;
     width: 100%;
 }
 
