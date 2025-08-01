@@ -525,17 +525,22 @@ STEPS
     justify-content: space-between;
     align-items: center;
 }
+.steps__description{
+    padding: 32px 0;
+    padding-left: 64px;
+}
 
 .step{
-    display: flex;
-    flex-direction: column;
-    text-wrap: wrap;
+  display: flex;
+  align-items: flex-start;
     margin-top: 32px;
 }
 
 .steps__list{
  display: flex;
  flex-direction: column;
+ margin: 24px;
+ max-width: 320px;
  
 }
 
