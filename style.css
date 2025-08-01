@@ -68,9 +68,6 @@ h1{
 
 
 h2{
-   
-    padding-top: 24px;
-    margin: 48px 0px 0px ;
     display: flex;
 
 }
@@ -492,22 +489,17 @@ flex-direction: column;
 }
 
 .quality__img--wrapper{
-    border: 1px solid rgb(229, 231, 235);
-    position: relative;
-    margin: 0 56px;
-    z-index: 2;
-    display: flex;
-    width: 50%;
-}
+   
 
 .quality__img{
     z-index: 1;
     width: 100%;
 }
 
-#quality .btn{
-   margin-top: 24px;
+#quality .btn {
+      margin-top: 24px;
     width: 50%;
+  
 }
 
 
