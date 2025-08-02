@@ -536,6 +536,7 @@ STEPS
     margin-top: 32px;
 }
 
+/*
 .steps__list{
  display: flex;
  flex-direction: column;
@@ -543,7 +544,7 @@ STEPS
  max-width: 320px;
  
 }
-
+*/
 .step__number{
     color: #cbd5e0;
     font-size: 36px;
@@ -556,7 +557,7 @@ STEPS
     display: flex;
     flex-direction: column;
     margin: 24px;
-    width: 50%;
+    max-width: 320px;
 }
 
 .step__title{
