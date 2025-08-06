@@ -814,10 +814,6 @@ TESTEMONIALS
 }
 
 
-.testemonial{
-    margin-top: 40px;
-}
-
 .testemonial__rating i{
     padding-top: 20px;
     color:rgba(246, 173, 85) ;
@@ -837,6 +833,7 @@ TESTEMONIALS
     font-size: 20px;
     line-height: 1.5;
     margin-top: 16px;
+
 }
 
 .testemonial__para{
@@ -877,7 +874,8 @@ TESTEMONIALS
 
 .testemonial__buttons{
     display: flex;
-    align-items: center;
+align-items: center;
+padding-left: 120px;
 }
 
 .testemonial__button{
@@ -886,9 +884,18 @@ TESTEMONIALS
     padding: 16px;
     background: #edf2f7;
     border-radius: 50%;
+    border: none;
     margin: 0 12px;
     transition: all 300ms;
 }
+
+/*
+.testemonial__button--wrapper{
+    width: 24px;
+    height: 24px;
+    border: none;
+}
+    */
 
 .divider{
     width: 1px;
@@ -942,7 +949,6 @@ START
 }
 
 .start__button--btn{
-    background-color:#f56565 ;
     padding: 12px 32px;
     border: none;
     border-radius: 500px;
@@ -951,14 +957,29 @@ START
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
  margin-right: 32px;
+
+}
+
+.contact{
+    background-color: #6415FF;
+    border-color: #fff;
+}
+
+.started{
+    background-color:#f56565 ;
+
+}
+
+.contact:hover{
+    background: #fff;
+    color: #6415FF;
  transition: all 300ms;
 }
 
-.start__button--btn :nth-child(2){
-    background-color: #6415FF;
-    border-color: #edf2f7;
+.started:hover{
+    background: rgb(229,62,62);
+ transition: all 300ms;
 }
-
 
 /*
 FOOTER
@@ -976,7 +997,7 @@ footer{
     margin-top:  -48px;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+
 
 }
 
@@ -984,7 +1005,6 @@ footer{
     margin-top: 48px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     z-index: 2;
     width:calc(100%/5) ;
 }
@@ -1005,6 +1025,7 @@ footer{
     font-weight: 500;
     position: relative;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
