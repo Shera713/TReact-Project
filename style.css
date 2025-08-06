@@ -52,7 +52,6 @@ letter-spacing: 0.025em;
 width: 100%;
     max-width: 576px ;
     margin: 0 auto;
-    height:100%;
     padding: 0px;
     padding-top: 16px ;
     color: #7c8ba1;
@@ -68,7 +67,7 @@ h1{
 
 
 h2{
-    display: flex;
+    
 
 }
 
@@ -600,8 +599,7 @@ VALUES
 .values__description{
     padding: 32px 64px 32px 0;
     width: 50%;
-    display: flex;
-    flex-direction: column;
+    
 }
 
 .values__list{
@@ -632,7 +630,7 @@ VALUES
     align-items: center;
 }
 
-.values__img--wrapper :nth-child(2){
+.values__img--wrapper .professional{
     background-color:rgb(254, 178, 178) ;
 }
 
