@@ -556,7 +556,8 @@ STEPS
 .step__description{
     display: flex;
     flex-direction: column;
-    margin: 24px;
+margin: 24px;
+margin-top: 0px;
     max-width: 320px;
 }
 
@@ -617,13 +618,18 @@ VALUES
     align-items: center;
 }
 
-.value__img--wrapper{
-    width: 50%;
+.values__img--wrapper{
+    width: 36px;
+    height: 36px;
     background-color: #9ae6b4;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.values__img--wrapper :nth-child(2){
+    background-color:rgb(254, 178, 178) ;
 }
 
 .value__name{
@@ -639,10 +645,12 @@ VALUES
     color: #718096;
 }
 
-
-
 .value__img{
     width: 50%;
+}
+
+#values .btn{
+    margin-top: 24px;
 }
 
 /*
