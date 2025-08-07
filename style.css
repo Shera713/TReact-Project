@@ -244,12 +244,13 @@ li{
 .nav__link{
 margin-left: 16px;   
  text-decoration: none;
+ 
 }
 
 .nav__link:hover{
-    color: #6415FF;
-    text-decoration: underline;
-    transition: all 300ms;
+    text-decoration: underline #6415FF;
+    transition: all 300ms ease-in-out;
+   
 }
 .nav__link--primary{
     padding: 10px 32px;
@@ -693,9 +694,11 @@ background: #fff;
 }
 
 .plan__blue{
-    background: (135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
     color: #f7fafc;
 }
+
+
 
 .orange{
         background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
@@ -762,10 +765,57 @@ background: #fff;
     letter-spacing: 0.025em;
 }
 
-.plan__feature{
+.plan__features{
     margin-top: 20px;
     font-weight: 500;
     color: #718096;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.plan__name--blue{
+    color: #f7fafc;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.625;
+    text-transform: uppercase ;
+}
+
+.plan__price--blue{
+    font-weight: bold;
+    line-height: 1.625;
+    font-size: 48px;
+    margin: 4px 0;
+       color: #f7fafc;
+}
+
+.plan__duration--blue{
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    line-height: 1.625;
+    color: #f7fafc;
+}
+
+
+.plan__middle--blue{
+    border-top:2px solid rgb(229, 231, 235);
+    border-bottom: 2px solid rgb(229, 231, 235);
+    padding: 32px;
+    text-align: center;
+}
+
+.plan__target--blue{
+    color: #f7fafc;;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.025em;
+}
+
+.plan__features--blue{
+    margin-top: 20px;
+    font-weight: 500;
+    color: #f7fafc;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -790,6 +840,21 @@ background: #fff;
     transition: all 300ms;
     max-width: none;
     color: #f7fafc;
+}
+.plan__button--blue{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 32px;
+    border-radius: 500px;
+    border: none;
+    font-size: 14px;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    transition: all 300ms;
+    max-width: none;
+    color: rgb(76, 81, 191) ;
 }
 
 
@@ -1043,6 +1108,7 @@ footer{
     width: 100%;
     height: 2px;
     margin: 64px 0;
+    color: #e5e7eb;
     background: rgb(100, 21, 255);
 }
 
@@ -1106,7 +1172,29 @@ letter-spacing: 0.05em;
     justify-content: space-between;
 }
 
+.footer__logo--popper,
+.footer__anchor{
+    color: #1a202c;
+}
 
+.footer__logo--popper{
+    position: absolute;
+    top: 420px;
+    left: 36px ;
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
+.footer__anchor{
+    position: relative;
+    
+}
+
+
+.footer__andchor:hover .footer__logo--popper{
+    transform: translateY(10px);
+    opacity: 1;
+}
 
 
 
