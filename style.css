@@ -1089,12 +1089,14 @@ letter-spacing: 0.05em;
     transition: all 300ms;
 }
 
-.footer__social--wrapper{
+.footer__socials--wrapper{
     border: solid 2px #fff;
     width: 36px;
     height: 36px;
     background-color: #fff;
     border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
