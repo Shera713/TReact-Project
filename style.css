@@ -985,6 +985,7 @@ START
 FOOTER
 */
 
+
 footer{
     padding: 96px 32px;
     background-color: rgb(100, 21, 255);
@@ -994,9 +995,10 @@ footer{
 }
 
 .footer__columns{
-    margin-top:  -48px;
+    margin-top: 48px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 
 }
@@ -1085,6 +1087,14 @@ letter-spacing: 0.05em;
     z-index: 2;
     cursor: pointer;
     transition: all 300ms;
+}
+
+.footer__social--wrapper{
+    border: solid 2px #fff;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border-radius: 50%;
 }
 
 
