@@ -702,6 +702,11 @@ background: #fff;
         color: #f7fafc;
 }
 
+.blue{
+    background-color: #fff;
+    color:rgb(102, 126, 234) ;
+}
+
 .plan__stripe{
     position: absolute;
     top: 0;
@@ -1079,7 +1084,7 @@ letter-spacing: 0.05em;
 }
 
 
-.footer__social--link{
+.footer__socials--link{
     margin-left: 16px;
     padding: 8px;
     background: #f7fafc;
