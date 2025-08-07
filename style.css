@@ -985,6 +985,11 @@ START
 FOOTER
 */
 
+.footer__row{
+    display: flex;
+    justify-content: space-around;
+    
+}
 
 footer{
     padding: 96px 32px;
@@ -998,7 +1003,6 @@ footer{
     margin-top: 48px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 
 
 }
@@ -1007,6 +1011,7 @@ footer{
     margin-top: 48px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     z-index: 2;
     width:calc(100%/5) ;
 }
@@ -1071,7 +1076,7 @@ letter-spacing: 0.05em;
 
 .footer__socials{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: -16px;
 }
 
