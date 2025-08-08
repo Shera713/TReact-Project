@@ -93,6 +93,12 @@ button{
     font-weight: bold;
     transition: all 300ms;
 }
+.btn:hover{
+     background-color:rgba(80, 17, 204);
+    color: rgba(154, 102, 255);
+    text-decoration: none;
+
+}
 
 
 main{
@@ -686,7 +692,7 @@ PRICING PLANS
     padding-top: 8px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow:rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; ;
+    box-shadow:rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; 
 position: relative;
 z-index: 100;
 background: #fff;
@@ -841,6 +847,12 @@ background: #fff;
     max-width: none;
     color: #f7fafc;
 }
+
+.plan__button,
+.plan__button--blue:hover{
+    transition: all 300ms ease;
+     box-shadow:rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
 .plan__button--blue{
     text-transform: uppercase;
     text-align: center;
@@ -956,7 +968,13 @@ padding-left: 120px;
     border-radius: 50%;
     border: none;
     margin: 0 12px;
-    transition: all 300ms;
+}
+
+    
+.testemonial__button:hover{
+    transition: all 300ms ease;
+    color: #4a5568;
+
 }
 
 /*
