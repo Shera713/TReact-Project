@@ -163,7 +163,7 @@ nav{
     display: none;
 }
 
-.menu_backdrop{
+.menu__backdrop{
 position: absolute;
 color: #e5e7eb;
 top:0;
@@ -1294,7 +1294,7 @@ SMART PHONES, TABLETS, LARGE SMARTPHONES
 .nav__links{
         display: none;
     }
-    
+
     .btn__menu{
     display: block;
 }
