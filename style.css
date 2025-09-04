@@ -165,7 +165,7 @@ nav{
 
 .menu__backdrop{
 position: absolute;
-color: #e5e7eb;
+background-color: #e5e7eb;
 top:0;
 left: 0;
 right: 0;
