@@ -1291,6 +1291,13 @@ SMART PHONES, TABLETS, LARGE SMARTPHONES
     h2{
         font-size: 26px;
 }
+.nav__links{
+        display: none;
+    }
+    
+    .btn__menu{
+    display: block;
+}
 
 .header__description{
     text-align: center;
@@ -1367,9 +1374,7 @@ SMART PHONES, LARGE SMARTPHONES
 
 @media(max-width: 640px){
 
-    .nav__links{
-        display: none;
-    }
+    
     main{
         margin-bottom: 80px;
     }
@@ -1378,9 +1383,7 @@ SMART PHONES, LARGE SMARTPHONES
      padding: 80px 0;
     }
 
-.btn__menu{
-    display: block;
-}
+
 .btn{
     line-height: 1.5;
 }
