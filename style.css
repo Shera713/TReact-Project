@@ -70,7 +70,7 @@ html{
 
 
 img{
- max-width: 1024px;
+ max-width: 100%;
 }
 
 p{
@@ -1080,7 +1080,6 @@ START
 }
 
 .start__title{
-    width: 50%;
     color: #f7fafc;
     font-size: 30px;
     font-weight: 700;
@@ -1518,7 +1517,6 @@ width: 100%;
     }
 
    .started{
-    margin-right: 0;
     padding: 12px 24px;
         font-size: 14px;
    }
@@ -1577,6 +1575,10 @@ p{
 
 @media (max-width: 768px){
 
+
+    #quality .row, #values .row{
+        flex-direction: column-reverse;
+    }
 
 .values__list{
     margin-left: auto;
