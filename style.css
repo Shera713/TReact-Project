@@ -368,11 +368,8 @@ header .row{
 
 
 .header__customers--img{
-width: 512px;
    margin-top: 16px;
    opacity: 0.5;
-   padding-bottom: 32px;
-  
 }
 
 
@@ -1435,7 +1432,7 @@ width: 100%;
         margin: 16px 0;
         margin-bottom: 0px;
         line-height: 1.5;
-      
+      position: static;
 }
 
 .header__customers--title{
@@ -1563,6 +1560,10 @@ p{
 
 .header__img{
     max-width: 512px;
+}
+
+.header__customers--img{
+    padding-right: 64px;
 }
 
 .header__img--wrapper{
