@@ -1028,6 +1028,11 @@ padding-left: 120px;
     margin: 0 12px;
 }
 
+.testimonial__button--wrapper{
+    width: 16px;
+    height: 16px;
+}
+
     
 .testimonial__button:hover{
     transition: all 300ms ease;
